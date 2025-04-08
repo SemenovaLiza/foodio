@@ -11,5 +11,4 @@ Pillow==9.5.0
 pycparser==2.21
 requests==2.29.0
 sqlparse==0.4.4
-python-dotenv 
 drf_extra_fields
