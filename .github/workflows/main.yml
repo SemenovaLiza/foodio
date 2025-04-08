@@ -10,7 +10,8 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: 3.14
+        python-version: '3.xx'
+        architecture: <arm64|x86>
 
     - name: Install dependencies
       run: | 
