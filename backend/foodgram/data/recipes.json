@@ -1,0 +1,657 @@
+[
+    {
+      "ingredients": [
+        {
+          "id": 423,
+          "amount": 3
+        },
+        {
+          "id": 1567,
+          "amount": 2
+        },
+        {
+          "id": 782,
+          "amount": 1
+        }
+      ],
+      "tags": [1, 3],
+      "image": "data:./media/recipes_images/jpeg;base64,pizzaMarg",
+      "name": "Classic Margherita Pizza",
+      "text": "Hand-tossed pizza dough topped with fresh tomatoes, mozzarella, and basil.",
+      "cooking_time": 25
+    },
+    {
+      "ingredients": [
+        {
+          "id": 156,
+          "amount": 4
+        },
+        {
+          "id": 1893,
+          "amount": 2
+        },
+        {
+          "id": 543,
+          "amount": 6
+        }
+      ],
+      "tags": [2],
+      "image": "data:./media/recipes_images/jpeg;base64,risotto",
+      "name": "Creamy Mushroom Risotto",
+      "text": "Arborio rice slowly cooked with mushrooms, white wine, and parmesan cheese.",
+      "cooking_time": 40
+    },
+    {
+      "ingredients": [
+        {
+          "id": 876,
+          "amount": 2
+        },
+        {
+          "id": 1432,
+          "amount": 1
+        },
+        {
+          "id": 298,
+          "amount": 3
+        }
+      ],
+      "tags": [1],
+      "image": "data:./media/recipes_images/jpeg;base64,tacos",
+      "name": "Spicy Beef Tacos",
+      "text": "Corn tortillas filled with seasoned ground beef, lettuce, cheese, and salsa.",
+      "cooking_time": 30
+    },
+    {
+      "ingredients": [
+        {
+          "id": 53,
+          "amount": 5
+        },
+        {
+          "id": 1789,
+          "amount": 2
+        },
+        {
+          "id": 621,
+          "amount": 1
+        }
+      ],
+      "tags": [3],
+      "image": "data:./media/recipes_images/png;base64,salmon",
+      "name": "Grilled Salmon with Lemon Butter",
+      "text": "Fresh salmon fillets grilled and topped with a zesty lemon butter sauce.",
+      "cooking_time": 20
+    },
+    {
+      "ingredients": [
+        {
+          "id": 1021,
+          "amount": 3
+        },
+        {
+          "id": 487,
+          "amount": 2
+        },
+        {
+          "id": 1932,
+          "amount": 4
+        }
+      ],
+      "tags": [2, 1],
+      "image": "data:./media/recipes_images/jpeg;base64,fryVegies",
+      "name": "Vegetable Stir Fry",
+      "text": "Colorful mixed vegetables stir-fried with ginger, garlic, and soy sauce.",
+      "cooking_time": 15
+    },
+    {
+      "ingredients": [
+        {
+          "id": 675,
+          "amount": 2
+        },
+        {
+          "id": 1546,
+          "amount": 3
+        },
+        {
+          "id": 372,
+          "amount": 1
+        }
+      ],
+      "tags": [1, 2],
+      "image": "data:./media/recipes_images/jpeg;base64,chocoCake",
+      "name": "Chocolate Lava Cake",
+      "text": "Rich chocolate cake with a molten center, dusted with powdered sugar.",
+      "cooking_time": 18
+    },
+    {
+      "ingredients": [
+        {
+          "id": 124,
+          "amount": 6
+        },
+        {
+          "id": 2048,
+          "amount": 2
+        },
+        {
+          "id": 831,
+          "amount": 3
+        }
+      ],
+      "tags": [3],
+      "image": "data:./media/recipes_images//jpeg;base64,greekSalad",
+      "name": "Greek Salad",
+      "text": "Fresh cucumber, tomato, olives, and feta cheese tossed in olive oil and oregano.",
+      "cooking_time": 10
+    },
+    {
+      "ingredients": [
+        {
+          "id": 953,
+          "amount": 4
+        },
+        {
+          "id": 1678,
+          "amount": 1
+        }
+      ],
+      "tags": [2],
+      "image": "data:./media/recipes_images/jpeg;base64,beefWell",
+      "name": "Beef Wellington",
+      "text": "Tender beef fillet wrapped in puff pastry with mushroom duxelles.",
+      "cooking_time": 90
+    },
+    {
+      "ingredients": [
+        {
+          "id": 432,
+          "amount": 3
+        },
+        {
+          "id": 1872,
+          "amount": 5
+        },
+        {
+          "id": 761,
+          "amount": 2
+        }
+      ],
+      "tags": [1],
+      "image": "data:./media/recipes_images/jpeg;base64,padThai",
+      "name": "Pad Thai",
+      "text": "Stir-fried rice noodles with eggs, tofu, bean sprouts, and crushed peanuts.",
+      "cooking_time": 25
+    },
+    {
+      "ingredients": [
+        {
+          "id": 87,
+          "amount": 2
+        },
+        {
+          "id": 1735,
+          "amount": 3
+        },
+        {
+          "id": 583,
+          "amount": 1
+        },
+        {
+            "id": 178,
+            "amount": 10
+        },
+        {
+            "id": 168,
+            "amount": 1
+        }
+      ],
+      "tags": [1, 3],
+      "image": "data:./media/recipes_images/jpeg;base64,onionSoup",
+      "name": "French Onion Soup",
+      "text": "Caramelized onions in rich beef broth topped with bread and melted Gruyère cheese.",
+      "cooking_time": 60
+    },
+    {
+      "ingredients": [
+        {
+          "id": 1129,
+          "amount": 3
+        },
+        {
+          "id": 456,
+          "amount": 2
+        },
+        {
+          "id": 1861,
+          "amount": 4
+        }
+      ],
+      "tags": [2],
+      "image": "data:./media/recipes_images/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAgMAAABieywaAAAACVBMVEUAAAD///9fX1/S0ecCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAACklEQVQImWNoAAAAggCByxOyYQAAAABJRU5ErkJggg==",
+      "name": "Chicken Tikka Masala",
+      "text": "Grilled chicken pieces in a spiced tomato-based sauce with cream.",
+      "cooking_time": 45
+    },
+    {
+      "ingredients": [
+        {
+          "id": 543,
+          "amount": 2
+        },
+        {
+          "id": 1623,
+          "amount": 1
+        },
+        {
+          "id": 349,
+          "amount": 3
+        }
+      ],
+      "tags": [3],
+      "image": "data:./media/recipes_images/jpeg;base64,carbonara",
+      "name": "Spaghetti Carbonara",
+      "text": "Pasta tossed with crispy pancetta, eggs, Parmesan cheese, and black pepper.",
+      "cooking_time": 20
+    },
+    {
+      "ingredients": [
+        {
+          "id": 231,
+          "amount": 4
+        },
+        {
+          "id": 1967,
+          "amount": 2
+        },
+        {
+          "id": 643,
+          "amount": 1
+        }
+      ],
+      "tags": [1],
+      "image": "data:./media/recipes_images/jpeg;base64,humus",
+      "name": "Homemade Hummus",
+      "text": "Creamy chickpea dip with tahini, lemon juice, olive oil, and garlic.",
+      "cooking_time": 15
+    },
+    {
+      "ingredients": [
+        {
+          "id": 1032,
+          "amount": 3
+        },
+        {
+          "id": 498,
+          "amount": 2
+        },
+        {
+          "id": 1753,
+          "amount": 1
+        }
+      ],
+      "tags": [2],
+      "image": "data:./media/recipes_images/jpeg;base64,applePie",
+      "name": "Apple Pie",
+      "text": "Flaky pastry crust filled with cinnamon-spiced apples and a touch of lemon.",
+      "cooking_time": 70
+    },
+    {
+      "ingredients": [
+        {
+          "id": 712,
+          "amount": 2
+        },
+        {
+          "id": 1849,
+          "amount": 3
+        },
+        {
+          "id": 365,
+          "amount": 1
+        }
+      ],
+      "tags": [3, 1],
+      "image": "data:./media/recipes_images/jpeg;base64,beefBour",
+      "name": "Beef Bourguignon",
+      "text": "Slow-cooked beef stew with red wine, mushrooms, and pearl onions.",
+      "cooking_time": 180
+    },
+    {
+      "ingredients": [
+        {
+          "id": 184,
+          "amount": 5
+        },
+        {
+          "id": 1512,
+          "amount": 2
+        },
+        {
+          "id": 897,
+          "amount": 3
+        }
+      ],
+      "tags": [1, 2],
+      "image": "data:./media/recipes_images/png;base64,caesarSalad",
+      "name": "Caesar Salad",
+      "text": "Romaine lettuce with Parmesan cheese, croutons, and classic Caesar dressing.",
+      "cooking_time": 15
+    },
+    {
+      "ingredients": [
+        {
+          "id": 653,
+          "amount": 4
+        },
+        {
+          "id": 2081,
+          "amount": 2
+        },
+        {
+          "id": 329,
+          "amount": 1
+        }
+      ],
+      "tags": [2, 3],
+      "image": "data:./media/recipes_images/jpeg;base64,lobsterB",
+      "name": "Lobster Bisque",
+      "text": "Rich, creamy soup made from lobster stock, aromatic vegetables, and brandy.",
+      "cooking_time": 90
+    },
+    {
+      "ingredients": [
+        {
+          "id": 421,
+          "amount": 3
+        },
+        {
+          "id": 1698,
+          "amount": 2
+        },
+        {
+          "id": 876,
+          "amount": 4
+        }
+      ],
+      "tags": [1],
+      "image": "data:./media/recipes_images/jpeg;base64,beefBroccoli",
+      "name": "Beef and Broccoli Stir Fry",
+      "text": "Tender slices of beef and broccoli florets in a savory soy-based sauce.",
+      "cooking_time": 25
+    },
+    {
+      "ingredients": [
+        {
+          "id": 85,
+          "amount": 2
+        },
+        {
+          "id": 1942,
+          "amount": 1
+        },
+        {
+          "id": 534,
+          "amount": 3
+        }
+      ],
+      "tags": [2, 3],
+      "image": "data:./media/recipes_images/jpeg;base64,tiramisu",
+      "name": "Tiramisu",
+      "text": "Italian dessert made with coffee-soaked ladyfingers and mascarpone cream.",
+      "cooking_time": 240
+    },
+    {
+      "ingredients": [
+        {
+          "id": 1276,
+          "amount": 3
+        },
+        {
+          "id": 476,
+          "amount": 2
+        },
+        {
+          "id": 1832,
+          "amount": 1
+        }
+      ],
+      "tags": [3],
+      "image": "data:./media/recipes_images/jpeg;base64,chickenSoup",
+      "name": "Chicken Noodle Soup",
+      "text": "Comforting soup with tender chicken, vegetables, and egg noodles.",
+      "cooking_time": 45
+    },
+    {
+      "ingredients": [
+        {
+          "id": 564,
+          "amount": 4
+        },
+        {
+          "id": 1635,
+          "amount": 2
+        },
+        {
+          "id": 302,
+          "amount": 3
+        }
+      ],
+      "tags": [2],
+      "image": "data:./media/recipes_images/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAgMAAABieywaAAAACVBMVEUAAAD///9fX1/S0ecCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAACklEQVQImWNoAAAAggCByxOyYQAAAABJRU5ErkJggg==",
+      "name": "Shrimp Scampi",
+      "text": "Succulent shrimp sautéed in garlic butter and white wine over pasta.",
+      "cooking_time": 20
+    },
+    {
+      "ingredients": [
+        {
+          "id": 245,
+          "amount": 3
+        },
+        {
+          "id": 1987,
+          "amount": 1
+        },
+        {
+          "id": 632,
+          "amount": 2
+        }
+      ],
+      "tags": [1],
+      "image": "data:./media/recipes_images/jpeg;base64,guacamole",
+      "name": "Guacamole",
+      "text": "Fresh avocado mashed with lime juice, cilantro, tomato, and onion.",
+      "cooking_time": 10
+    },
+    {
+      "ingredients": [
+        {
+          "id": 1098,
+          "amount": 2
+        },
+        {
+          "id": 523,
+          "amount": 3
+        },
+        {
+          "id": 1763,
+          "amount": 1
+        }
+      ],
+      "tags": [3],
+      "image": "data:./media/recipes_images/jpeg;base64,chickenParmesan",
+      "name": "Chicken Parmesan",
+      "text": "Breaded chicken breast topped with marinara sauce and melted mozzarella.",
+      "cooking_time": 40
+    },
+    {
+      "ingredients": [
+        {
+          "id": 732,
+          "amount": 4
+        },
+        {
+          "id": 1845,
+          "amount": 2
+        },
+        {
+          "id": 387,
+          "amount": 3
+        }
+      ],
+      "tags": [2, 1],
+      "image": "data:./media/recipes_images/jpeg;base64,pumpkinPie",
+      "name": "Pumpkin Pie",
+      "text": "Sweet spiced pumpkin custard in a flaky pastry crust.",
+      "cooking_time": 65
+    },
+    {
+      "ingredients": [
+        {
+          "id": 163,
+          "amount": 3
+        },
+        {
+          "id": 1592,
+          "amount": 1
+        },
+        {
+          "id": 834,
+          "amount": 2
+        }
+      ],
+      "tags": [1],
+      "image": "data:./media/recipes_images/jpeg;base64,caprese",
+      "name": "Caprese Salad",
+      "text": "Fresh tomatoes, mozzarella cheese, and basil drizzled with balsamic glaze.",
+      "cooking_time": 5
+    },
+    {
+      "ingredients": [
+        {
+          "id": 675,
+          "amount": 4
+        },
+        {
+          "id": 2132,
+          "amount": 2
+        },
+        {
+          "id": 305,
+          "amount": 1
+        }
+      ],
+      "tags": [3],
+      "image": "data:./media/recipes_images/jpeg;base64,beefStrog",
+      "name": "Beef Stroganoff",
+      "text": "Tender beef strips in a creamy mushroom sauce served over egg noodles.",
+      "cooking_time": 35
+    },
+    {
+      "ingredients": [
+        {
+          "id": 432,
+          "amount": 3
+        },
+        {
+          "id": 1723,
+          "amount": 2
+        },
+        {
+          "id": 561,
+          "amount": 4
+        }
+      ],
+      "tags": [2],
+      "image": "data:./media/recipes_images/jpeg;base64,vegCurry",
+      "name": "Vegetable Curry",
+      "text": "Mixed vegetables in a fragrant curry sauce with coconut milk.",
+      "cooking_time": 30
+    },
+    {
+      "ingredients": [
+        {
+          "id": 98,
+          "amount": 2
+        },
+        {
+          "id": 1954,
+          "amount": 1
+        },
+        {
+          "id": 587,
+          "amount": 3
+        }
+      ],
+      "tags": [3],
+      "image": "data:./media/recipes_images/jpeg;base64,chipCookie",
+      "name": "Chocolate Chip Cookies",
+      "text": "Classic cookies with semi-sweet chocolate chips and a touch of vanilla.",
+      "cooking_time": 12
+    },
+    {
+      "ingredients": [
+        {
+          "id": 1321,
+          "amount": 3
+        },
+        {
+          "id": 478,
+          "amount": 2
+        },
+        {
+          "id": 1893,
+          "amount": 1
+        }
+      ],
+      "tags": [1, 2],
+      "image": "data:./media/recipes_images/jpeg;base64,chickenQues",
+      "name": "Chicken Quesadilla",
+      "text": "Grilled flour tortilla filled with spiced chicken, cheese, and peppers.",
+      "cooking_time": 15
+    },
+    {
+      "ingredients": [
+        {
+          "id": 579,
+          "amount": 4
+        },
+        {
+          "id": 1643,
+          "amount": 2
+        },
+        {
+          "id": 321,
+          "amount": 3
+        }
+      ],
+      "tags": [3, 2],
+      "image": "data:./media/recipes_images/jpeg;base64,clamChow",
+      "name": "Clam Chowder",
+      "text": "Creamy soup with clams, potatoes, and bacon in a rich broth.",
+      "cooking_time": 50
+    },
+    {
+      "ingredients": [
+        {
+          "id": 267,
+          "amount": 3
+        },
+        {
+          "id": 2002,
+          "amount": 1
+        },
+        {
+          "id": 654,
+          "amount": 2
+        }
+      ],
+      "tags": [2, 1],
+      "image": "data:./media/recipes_images/jpeg;base64,eggplantParm",
+      "name": "Eggplant Parmesan",
+      "text": "Breaded eggplant slices layered with marinara sauce and cheese.",
+      "cooking_time": 60
+    }
+]
