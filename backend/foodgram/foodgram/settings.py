@@ -1,6 +1,7 @@
 import os
 from pathlib import Path
 
+from decouple import config
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -9,11 +10,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 AUTH_USER_MODEL = "users.CustomUser"
 
-SECRET_KEY = 'django-insecure-2zu^uvf9ko1y@shp2n3y8-6k47h@1b(e)6-^8h*)0w&5(x=!(w'
+SECRET_KEY = os.getenv('SECRET_KEY', 'string_from_.env')
 
-DEBUG = True
+DEBUG = os.getenv('DEBUG', False)
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '*').split(' ')
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -66,8 +67,12 @@ WSGI_APPLICATION = 'foodgram.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': os.getenv('ENGINE', 'django.db.backends.postgresql'),
+        'NAME': os.getenv('POSTGRES_DB', 'django'),
+        'USER': os.getenv('POSTGRES_USER', 'django'),
+        'PASSWORD': os.getenv('POSTGRES_PASSWORD', ''),
+        'HOST': os.getenv('DB_HOST', ''),
+        'PORT': os.getenv('DB_PORT', 5432)
     }
 }
 
@@ -131,6 +136,7 @@ DJOSER = {
     }
 }
 
+# constants for recipe and user app
 USER_EMAIL_MAX_LENGTH = 254
 NAME_MAX_LENGTH = 150
 RECIPE_MAX_LENGTH = 200
