@@ -3,11 +3,10 @@ import random
 
 from django.core.management.base import BaseCommand
 from django.db import IntegrityError
-from recipes.models import (
-    Ingredient, Tag, Recipe,
-    RecipesIngredient, RecipesTag
-)
 from users.models import CustomUser
+
+from recipes.models import (Ingredient, Recipe, RecipesIngredient, RecipesTag,
+                            Tag)
 
 
 # abstract function for loading data from json file
@@ -37,15 +36,21 @@ class Command(BaseCommand):
             for recipe in recipes:
                 recipe_ingredients = recipe.pop('ingredients')
                 recipe_tags = recipe.pop('tags')
-                user_ids = list(CustomUser.objects.values_list('id', flat=True))
+                user_ids = list(
+                    CustomUser.objects.values_list('id', flat=True)
+                )
+
                 try:
                     random_id = random.choice(user_ids)
                     author = CustomUser.objects.get(id=random_id)
                     new_recipe = Recipe.objects.create(author=author, **recipe)
                 except IntegrityError:
                     continue
+
                 for ingredient in recipe_ingredients:
-                    ingredient_obj = Ingredient.objects.get(id=ingredient['id'])
+                    ingredient_obj = Ingredient.objects.get(
+                        id=ingredient['id']
+                    )
                     RecipesIngredient.objects.create(
                         ingredient=ingredient_obj, recipe=new_recipe,
                         amount=ingredient['amount']
