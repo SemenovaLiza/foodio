@@ -3,10 +3,9 @@ import random
 
 from django.core.management.base import BaseCommand
 from django.db import IntegrityError
-from users.models import CustomUser
-
 from recipes.models import (Ingredient, Recipe, RecipesIngredient, RecipesTag,
                             Tag)
+from users.models import CustomUser
 
 
 # abstract function for loading data from json file
