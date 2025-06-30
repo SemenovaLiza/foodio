@@ -15,7 +15,7 @@
         }
       ],
       "tags": [1, 3],
-      "image": "data:./media/recipes_images/jpeg;base64,pizzaMarg",
+      "image": "recipes_images/pizzaMarg.jpeg",
       "name": "Classic Margherita Pizza",
       "text": "Hand-tossed pizza dough topped with fresh tomatoes, mozzarella, and basil.",
       "cooking_time": 25
@@ -36,7 +36,7 @@
         }
       ],
       "tags": [2],
-      "image": "data:./media/recipes_images/jpeg;base64,risotto",
+      "image": "recipes_images/risotto.jpeg",
       "name": "Creamy Mushroom Risotto",
       "text": "Arborio rice slowly cooked with mushrooms, white wine, and parmesan cheese.",
       "cooking_time": 40
@@ -57,7 +57,7 @@
         }
       ],
       "tags": [1],
-      "image": "data:./media/recipes_images/jpeg;base64,tacos",
+      "image": "recipes_images/tacos.jpeg",
       "name": "Spicy Beef Tacos",
       "text": "Corn tortillas filled with seasoned ground beef, lettuce, cheese, and salsa.",
       "cooking_time": 30
@@ -78,7 +78,7 @@
         }
       ],
       "tags": [3],
-      "image": "data:./media/recipes_images/png;base64,salmon",
+      "image": "recipes_images/salmon.png",
       "name": "Grilled Salmon with Lemon Butter",
       "text": "Fresh salmon fillets grilled and topped with a zesty lemon butter sauce.",
       "cooking_time": 20
@@ -99,7 +99,7 @@
         }
       ],
       "tags": [2, 1],
-      "image": "data:./media/recipes_images/jpeg;base64,fryVegies",
+      "image": "recipes_images/fryVegiesjpeg",
       "name": "Vegetable Stir Fry",
       "text": "Colorful mixed vegetables stir-fried with ginger, garlic, and soy sauce.",
       "cooking_time": 15
@@ -120,7 +120,7 @@
         }
       ],
       "tags": [1, 2],
-      "image": "data:./media/recipes_images/jpeg;base64,chocoCake",
+      "image": "recipes_images/chocoCake.jpeg",
       "name": "Chocolate Lava Cake",
       "text": "Rich chocolate cake with a molten center, dusted with powdered sugar.",
       "cooking_time": 18
@@ -141,7 +141,7 @@
         }
       ],
       "tags": [3],
-      "image": "data:./media/recipes_images//jpeg;base64,greekSalad",
+      "image": "recipes_images/greekSalad.jpeg",
       "name": "Greek Salad",
       "text": "Fresh cucumber, tomato, olives, and feta cheese tossed in olive oil and oregano.",
       "cooking_time": 10
@@ -158,7 +158,7 @@
         }
       ],
       "tags": [2],
-      "image": "data:./media/recipes_images/jpeg;base64,beefWell",
+      "image": "recipes_images/beefWell.jpeg",
       "name": "Beef Wellington",
       "text": "Tender beef fillet wrapped in puff pastry with mushroom duxelles.",
       "cooking_time": 90
@@ -179,7 +179,7 @@
         }
       ],
       "tags": [1],
-      "image": "data:./media/recipes_images/jpeg;base64,padThai",
+      "image": "recipes_images/padThai.jpeg",
       "name": "Pad Thai",
       "text": "Stir-fried rice noodles with eggs, tofu, bean sprouts, and crushed peanuts.",
       "cooking_time": 25
@@ -208,7 +208,7 @@
         }
       ],
       "tags": [1, 3],
-      "image": "data:./media/recipes_images/jpeg;base64,onionSoup",
+      "image": "recipes_images/onionSoup.jpeg",
       "name": "French Onion Soup",
       "text": "Caramelized onions in rich beef broth topped with bread and melted Gruyère cheese.",
       "cooking_time": 60
@@ -229,7 +229,7 @@
         }
       ],
       "tags": [2],
-      "image": "data:./media/recipes_images/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAgMAAABieywaAAAACVBMVEUAAAD///9fX1/S0ecCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAACklEQVQImWNoAAAAggCByxOyYQAAAABJRU5ErkJggg==",
+      "image": "recipes_images/tikkaMasala.jpg",
       "name": "Chicken Tikka Masala",
       "text": "Grilled chicken pieces in a spiced tomato-based sauce with cream.",
       "cooking_time": 45
@@ -250,7 +250,7 @@
         }
       ],
       "tags": [3],
-      "image": "data:./media/recipes_images/jpeg;base64,carbonara",
+      "image": "recipes_images/carbonara.jpeg",
       "name": "Spaghetti Carbonara",
       "text": "Pasta tossed with crispy pancetta, eggs, Parmesan cheese, and black pepper.",
       "cooking_time": 20
@@ -271,7 +271,7 @@
         }
       ],
       "tags": [1],
-      "image": "data:./media/recipes_images/jpeg;base64,humus",
+      "image": "recipes_images/humus.jpeg",
       "name": "Homemade Hummus",
       "text": "Creamy chickpea dip with tahini, lemon juice, olive oil, and garlic.",
       "cooking_time": 15
@@ -292,7 +292,7 @@
         }
       ],
       "tags": [2],
-      "image": "data:./media/recipes_images/jpeg;base64,applePie",
+      "image": "recipes_images/applePie.jpeg",
       "name": "Apple Pie",
       "text": "Flaky pastry crust filled with cinnamon-spiced apples and a touch of lemon.",
       "cooking_time": 70
@@ -313,7 +313,7 @@
         }
       ],
       "tags": [3, 1],
-      "image": "data:./media/recipes_images/jpeg;base64,beefBour",
+      "image": "recipes_images/beefBour.jpeg",
       "name": "Beef Bourguignon",
       "text": "Slow-cooked beef stew with red wine, mushrooms, and pearl onions.",
       "cooking_time": 180
@@ -334,7 +334,7 @@
         }
       ],
       "tags": [1, 2],
-      "image": "data:./media/recipes_images/png;base64,caesarSalad",
+      "image": "recipes_images/caesarSalad.png",
       "name": "Caesar Salad",
       "text": "Romaine lettuce with Parmesan cheese, croutons, and classic Caesar dressing.",
       "cooking_time": 15
@@ -355,7 +355,7 @@
         }
       ],
       "tags": [2, 3],
-      "image": "data:./media/recipes_images/jpeg;base64,lobsterB",
+      "image": "recipes_images/lobsterB.jpeg",
       "name": "Lobster Bisque",
       "text": "Rich, creamy soup made from lobster stock, aromatic vegetables, and brandy.",
       "cooking_time": 90
@@ -376,7 +376,7 @@
         }
       ],
       "tags": [1],
-      "image": "data:./media/recipes_images/jpeg;base64,beefBroccoli",
+      "image": "recipes_images/beefBroccoli.jpeg",
       "name": "Beef and Broccoli Stir Fry",
       "text": "Tender slices of beef and broccoli florets in a savory soy-based sauce.",
       "cooking_time": 25
@@ -397,7 +397,7 @@
         }
       ],
       "tags": [2, 3],
-      "image": "data:./media/recipes_images/jpeg;base64,tiramisu",
+      "image": "recipes_images/tiramisu.jpeg",
       "name": "Tiramisu",
       "text": "Italian dessert made with coffee-soaked ladyfingers and mascarpone cream.",
       "cooking_time": 240
@@ -418,7 +418,7 @@
         }
       ],
       "tags": [3],
-      "image": "data:./media/recipes_images/jpeg;base64,chickenSoup",
+      "image": "recipes_images/chickenSoup.jpeg",
       "name": "Chicken Noodle Soup",
       "text": "Comforting soup with tender chicken, vegetables, and egg noodles.",
       "cooking_time": 45
@@ -439,7 +439,7 @@
         }
       ],
       "tags": [2],
-      "image": "data:./media/recipes_images/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAgMAAABieywaAAAACVBMVEUAAAD///9fX1/S0ecCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAACklEQVQImWNoAAAAggCByxOyYQAAAABJRU5ErkJggg==",
+      "image": "recipes_images/shrimp.jpeg",
       "name": "Shrimp Scampi",
       "text": "Succulent shrimp sautéed in garlic butter and white wine over pasta.",
       "cooking_time": 20
@@ -460,7 +460,7 @@
         }
       ],
       "tags": [1],
-      "image": "data:./media/recipes_images/jpeg;base64,guacamole",
+      "image": "recipes_images/guacamole.jpeg",
       "name": "Guacamole",
       "text": "Fresh avocado mashed with lime juice, cilantro, tomato, and onion.",
       "cooking_time": 10
@@ -481,7 +481,7 @@
         }
       ],
       "tags": [3],
-      "image": "data:./media/recipes_images/jpeg;base64,chickenParmesan",
+      "image": "recipes_images/chickenParmesan.jpeg",
       "name": "Chicken Parmesan",
       "text": "Breaded chicken breast topped with marinara sauce and melted mozzarella.",
       "cooking_time": 40
@@ -502,7 +502,7 @@
         }
       ],
       "tags": [2, 1],
-      "image": "data:./media/recipes_images/jpeg;base64,pumpkinPie",
+      "image": "recipes_images/pumpkinPie.jpeg",
       "name": "Pumpkin Pie",
       "text": "Sweet spiced pumpkin custard in a flaky pastry crust.",
       "cooking_time": 65
@@ -523,7 +523,7 @@
         }
       ],
       "tags": [1],
-      "image": "data:./media/recipes_images/jpeg;base64,caprese",
+      "image": "recipes_images/caprese.jpeg",
       "name": "Caprese Salad",
       "text": "Fresh tomatoes, mozzarella cheese, and basil drizzled with balsamic glaze.",
       "cooking_time": 5
@@ -544,7 +544,7 @@
         }
       ],
       "tags": [3],
-      "image": "data:./media/recipes_images/jpeg;base64,beefStrog",
+      "image": "recipes_images/beefStrog.jpeg",
       "name": "Beef Stroganoff",
       "text": "Tender beef strips in a creamy mushroom sauce served over egg noodles.",
       "cooking_time": 35
@@ -565,7 +565,7 @@
         }
       ],
       "tags": [2],
-      "image": "data:./media/recipes_images/jpeg;base64,vegCurry",
+      "image": "recipes_images/vegCurry.jpeg",
       "name": "Vegetable Curry",
       "text": "Mixed vegetables in a fragrant curry sauce with coconut milk.",
       "cooking_time": 30
@@ -586,7 +586,7 @@
         }
       ],
       "tags": [3],
-      "image": "data:./media/recipes_images/jpeg;base64,chipCookie",
+      "image": "recipes_images/chipCookie.jpeg",
       "name": "Chocolate Chip Cookies",
       "text": "Classic cookies with semi-sweet chocolate chips and a touch of vanilla.",
       "cooking_time": 12
@@ -607,7 +607,7 @@
         }
       ],
       "tags": [1, 2],
-      "image": "data:./media/recipes_images/jpeg;base64,chickenQues",
+      "image": "recipes_images/chickenQues.jpeg",
       "name": "Chicken Quesadilla",
       "text": "Grilled flour tortilla filled with spiced chicken, cheese, and peppers.",
       "cooking_time": 15
@@ -628,7 +628,7 @@
         }
       ],
       "tags": [3, 2],
-      "image": "data:./media/recipes_images/jpeg;base64,clamChow",
+      "image": "recipes_images/clamChow.jpeg",
       "name": "Clam Chowder",
       "text": "Creamy soup with clams, potatoes, and bacon in a rich broth.",
       "cooking_time": 50
@@ -649,7 +649,7 @@
         }
       ],
       "tags": [2, 1],
-      "image": "data:./media/recipes_images/jpeg;base64,eggplantParm",
+      "image": "recipes_images/eggplantParm.jpeg",
       "name": "Eggplant Parmesan",
       "text": "Breaded eggplant slices layered with marinara sauce and cheese.",
       "cooking_time": 60

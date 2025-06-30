@@ -3,9 +3,12 @@ import random
 
 from django.core.management.base import BaseCommand
 from django.db import IntegrityError
+from psycopg2.errors import StringDataRightTruncation
 from recipes.models import (Ingredient, Recipe, RecipesIngredient, RecipesTag,
                             Tag)
 from users.models import CustomUser
+from django.db.utils import DataError
+from psycopg2.errors import StringDataRightTruncation
 
 
 # abstract function for loading data from json file
@@ -20,6 +23,8 @@ def load_data(data, obj_class, stdout=None, style=None):
                     continue
     except (FileNotFoundError, json.JSONDecodeError):
         stdout.write(style.ERROR("Error occured while loading the data."))
+    except StringDataRightTruncation as e:
+        stdout.write(style.ERROR("{e} length is not correct."))
 
 
 class Command(BaseCommand):
@@ -45,6 +50,11 @@ class Command(BaseCommand):
                     new_recipe = Recipe.objects.create(author=author, **recipe)
                 except IntegrityError:
                     continue
+                except (DataError, StringDataRightTruncation):
+                    self.stdout.write(
+                        self.style.SUCCESS(f"recipe {recipe.get('name')}.")
+                        )
+                    continue
 
                 for ingredient in recipe_ingredients:
                     ingredient_obj = Ingredient.objects.get(
@@ -58,6 +68,8 @@ class Command(BaseCommand):
                 for tag in recipe_tags:
                     tag_obj = Tag.objects.get(id=tag)
                     RecipesTag.objects.create(tag=tag_obj, recipe=new_recipe)
+
+        
         self.stdout.write(
             self.style.SUCCESS("Data loading completed successfully.")
         )

@@ -137,5 +137,6 @@ DJOSER = {
 
 # constants for recipe and user app
 USER_EMAIL_MAX_LENGTH = 254
-NAME_MAX_LENGTH = 150
+NAME_MAX_LENGTH = 200
 RECIPE_MAX_LENGTH = 200
+# adding few lines
