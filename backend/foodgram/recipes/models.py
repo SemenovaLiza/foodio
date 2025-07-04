@@ -1,6 +1,7 @@
 from colorfield.fields import ColorField
 from django.core.validators import MaxValueValidator, MinValueValidator
 from django.db import models
+
 from foodgram.settings import NAME_MAX_LENGTH, RECIPE_MAX_LENGTH
 from users.models import CustomUser
 
@@ -60,7 +61,7 @@ class Recipe(models.Model):
         verbose_name='Автор рецепта'
     )
     name = models.CharField(
-        max_length=250,
+        max_length=RECIPE_MAX_LENGTH,
         verbose_name='Название рецепта'
     )
     image = models.ImageField(
