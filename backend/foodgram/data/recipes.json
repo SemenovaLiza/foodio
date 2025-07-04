@@ -78,7 +78,7 @@
         }
       ],
       "tags": [3],
-      "image": "recipes_images/salmon.png",
+      "image": "recipes_images/salmon.jpeg",
       "name": "Grilled Salmon with Lemon Butter",
       "text": "Fresh salmon fillets grilled and topped with a zesty lemon butter sauce.",
       "cooking_time": 20
@@ -99,7 +99,7 @@
         }
       ],
       "tags": [2, 1],
-      "image": "recipes_images/fryVegiesjpeg",
+      "image": "recipes_images/fryVegies.jpeg",
       "name": "Vegetable Stir Fry",
       "text": "Colorful mixed vegetables stir-fried with ginger, garlic, and soy sauce.",
       "cooking_time": 15
@@ -334,7 +334,7 @@
         }
       ],
       "tags": [1, 2],
-      "image": "recipes_images/caesarSalad.png",
+      "image": "recipes_images/caesarSalad.jpeg",
       "name": "Caesar Salad",
       "text": "Romaine lettuce with Parmesan cheese, croutons, and classic Caesar dressing.",
       "cooking_time": 15
@@ -439,7 +439,7 @@
         }
       ],
       "tags": [2],
-      "image": "recipes_images/shrimp.jpeg",
+      "image": "recipes_images/shrimp.jpg",
       "name": "Shrimp Scampi",
       "text": "Succulent shrimp sautéed in garlic butter and white wine over pasta.",
       "cooking_time": 20
